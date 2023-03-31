@@ -3,7 +3,6 @@ package com.example.lesson7_1.data.repository
 import com.example.lesson7_1.data.local.NoteDao
 import com.example.lesson7_1.data.mapper.toEntity
 import com.example.lesson7_1.data.mapper.toNote
-import com.example.lesson7_1.data.model.NoteEntity
 import com.example.lesson7_1.domain.model.Note
 import com.example.lesson7_1.domain.repository.NoteRepository
 
