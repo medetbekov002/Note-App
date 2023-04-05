@@ -1,5 +1,5 @@
-# NoteApp
 ---
+## NoteApp
 
  * MVVM
  * Hilt (for dependency injection)
