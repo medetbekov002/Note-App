@@ -34,7 +34,7 @@ class NotesViewModel @Inject constructor(
                     }
                     is Resource.Success -> {
                         if (res.data != null) {
-                            _getAllNotesState.value = UIState.Success(res.data)
+                            _getAllNotesState.value = UIState.Success(res.data!!)
                         }
                     }
                 }
