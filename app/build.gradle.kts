@@ -42,13 +42,24 @@ android {
 
 dependencies {
 
+    // Module
+    implementation(project(":data"))
+    implementation(project(":domain"))
+
+    // Android
     implementation(Deps.UI.androidCore)
     implementation(Deps.UI.appcompat)
     implementation(Deps.UI.material)
+
+    // Container layout
     implementation(Deps.UI.constraint)
+
+    // Test
     testImplementation(Deps.UI.junit)
     androidTestImplementation(Deps.UI.extJunit)
     androidTestImplementation(Deps.UI.espresso)
+
+    // Fragment
     implementation(Deps.UI.fragment)
 
     //room
