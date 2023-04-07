@@ -11,7 +11,10 @@ object Versions {
     const val extJUnit = "1.1.5"
     const val jUnit = "4.13.2"
     const val espresso = "3.5.1"
+    const val navigation = "2.5.2"
     const val fragment = "1.5.6"
+    const val viewBindingDelegate = "1.5.8"
+    const val lifecycle = "2.6.1"
 }
 
 object Deps {
@@ -42,8 +45,20 @@ object Deps {
             "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
     }
 
-}
+    object NavComponent {
+        const val fragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+        const val ui = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
+    }
 
+    object Lifecycle {
+        const val lifecycle = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
+    }
+
+    object ViewBindingDelegate {
+        const val viewBindingDelegate =
+            "com.github.kirich1409:viewbindingpropertydelegate-noreflection:${Versions.viewBindingDelegate}"
+    }
+}
 
 object Plugins {
     object AGP {

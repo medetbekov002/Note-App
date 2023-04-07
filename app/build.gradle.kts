@@ -22,7 +22,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {
@@ -33,7 +36,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
-        viewBinding =  true
+        viewBinding = true
     }
 }
 
@@ -59,4 +62,14 @@ dependencies {
 
     //coroutines
     implementation(Deps.Coroutines.android)
+
+    //nav component
+    implementation(Deps.NavComponent.fragment)
+    implementation(Deps.NavComponent.ui)
+
+    //view Binding property delegate (reflection-free flavor)
+    implementation(Deps.ViewBindingDelegate.viewBindingDelegate)
+
+    //lifecycle
+    implementation(Deps.Lifecycle.lifecycle)
 }
