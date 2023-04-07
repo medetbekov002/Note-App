@@ -9,6 +9,7 @@
  * Room
  * Navigation
  * Clean Architecture
+ * viewbindingdelegate
  * kotlin-dsl
 
 ---
