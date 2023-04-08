@@ -26,8 +26,3 @@
 Target **Android API** ``` 33 ```
 
 ---
-
-## Didn't finish
- * UI design
-
----
