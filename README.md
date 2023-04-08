@@ -10,7 +10,7 @@
  * Navigation
  * Clean Architecture
  * Viewbindingdelegate
- * Modulation
+ * Multimodulation
  * kotlin-dsl
 
 ---
