@@ -2,7 +2,6 @@
 
 ---
 
- * MVVM
  * Hilt (for dependency injection)
  * Kotlin Coroutines
  * Retrofit
