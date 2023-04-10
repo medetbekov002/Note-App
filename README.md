@@ -2,7 +2,6 @@
 
 ---
 
- * MVVM
  * Hilt (for dependency injection)
  * Kotlin Coroutines
  * Retrofit
@@ -10,7 +9,7 @@
  * Navigation
  * Clean Architecture
  * Viewbindingdelegate
- * Modulation
+ * Multimodulation
  * kotlin-dsl
 
 ---
@@ -24,12 +23,5 @@
 **Gradle plugin** version ``` 7.3.0 ```
 
 Target **Android API** ``` 33 ```
-
----
-
-## Didn't finish
- * Modulation
- * ViewModel
- * UI design
 
 ---
