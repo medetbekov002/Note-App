@@ -53,9 +53,9 @@ dependencies {
 
     // Container layout
     implementation(Deps.UI.constraint)
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.4.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation(Deps.UI.appcompat)
+    implementation(Deps.UI.material)
+    implementation(Deps.UI.constraint)
 
     // Test
     testImplementation(Deps.UI.junit)
@@ -65,25 +65,25 @@ dependencies {
     // Fragment
     implementation(Deps.UI.fragment)
 
-    //room
+    // Room
     implementation(Deps.Room.room)
     implementation(Deps.Room.roomRuntime)
     kapt(Deps.Room.compiler)
 
-    //hilt
+    // Hilt
     implementation(Deps.DaggerHilt.hilt)
     kapt(Deps.DaggerHilt.compiler)
 
-    //coroutines
+    // Coroutines
     implementation(Deps.Coroutines.android)
 
-    //nav component
+    // Nav component
     implementation(Deps.NavComponent.fragment)
     implementation(Deps.NavComponent.ui)
 
-    //view Binding property delegate (reflection-free flavor)
+    // View Binding property delegate (reflection-free flavor)
     implementation(Deps.ViewBindingDelegate.viewBindingDelegate)
 
-    //lifecycle
+    // Lifecycle
     implementation(Deps.Lifecycle.lifecycle)
 }
