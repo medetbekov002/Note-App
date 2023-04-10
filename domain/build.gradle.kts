@@ -15,5 +15,4 @@ dependencies {
 
     // Javax
     implementation(Deps.JavaX.inject)
-
 }
