@@ -4,8 +4,6 @@
     <bytecodeTargetLevel target="1.7">
       <module name="Lesson7-1.app" target="11" />
       <module name="Lesson7-1.data" target="11" />
-      <module name="Note-App.app" target="11" />
-      <module name="Note-App.data" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
