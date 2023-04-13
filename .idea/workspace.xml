@@ -10,80 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dd0d510-562c-4aa4-a91f-fe130f85b5b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/di/NoteAppModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/base/BaseActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/base/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/base/BaseViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/ui/activity/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/ui/fragments/NoteFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/ui/fragments/NotesViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/utils/Ext.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/presentation/utils/UIState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/NoteApp/data/base/BaseRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/NoteApp/data/local/NoteDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/NoteApp/data/local/NoteDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/NoteApp/data/mapper/NoteMappers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/NoteApp/data/model/NoteEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/example/NoteApp/data/repository/NoteRepositoryImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/NoteApp/domain/model/Note.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/NoteApp/domain/repository/NoteRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/NoteApp/domain/usecase/CreateNoteUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/NoteApp/domain/usecase/DeleteNoteUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/NoteApp/domain/usecase/EditNoteUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/NoteApp/domain/usecase/GetAllNotesUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/NoteApp/domain/utils/Resource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/NoteApp/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/NoteApp/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/App_GeneratedInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/App_GeneratedInjector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/di/NoteAppModule_ProvideNoteDaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/di/NoteAppModule_ProvideNoteDaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/di/NoteAppModule_ProvideNoteDataBaseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/di/NoteAppModule_ProvideNoteDataBaseFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/di/NoteAppModule_ProvideNoteRepositoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/di/NoteAppModule_ProvideNoteRepositoryFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/NotesViewModel_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/NotesViewModel_Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/NotesViewModel_HiltModules.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/NotesViewModel_HiltModules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/NotesViewModel_HiltModules_KeyModule_ProvideFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/NotesViewModel_HiltModules_KeyModule_ProvideFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteFragment_GeneratedInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteFragment_GeneratedInjector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteViewModel_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteViewModel_Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteViewModel_HiltModules.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteViewModel_HiltModules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteViewModel_HiltModules_KeyModule_ProvideFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/AddNoteViewModel_HiltModules_KeyModule_ProvideFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/Hilt_AddNoteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/NoteApp/presentation/ui/fragments/addNote/Hilt_AddNoteFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/lesson7_1/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/NoteApp/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/App.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/di/NoteAppModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/base/BaseActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/base/BaseFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/base/BaseViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/ui/activity/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/ui/fragments/NoteFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/ui/fragments/NotesViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/ui/fragments/addNote/AddNoteFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/ui/fragments/addNote/AddNoteViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/utils/Ext.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/lesson7_1/presentation/utils/UIState.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_note.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/lesson7_1/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/NoteApp/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/generated/source/kapt/debug/com/example/NoteApp/data/local/NoteDao_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/generated/source/kapt/debug/com/example/NoteApp/data/local/NoteDao_Impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/generated/source/kapt/debug/com/example/NoteApp/data/local/NoteDatabase_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/generated/source/kapt/debug/com/example/NoteApp/data/local/NoteDatabase_Impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/lesson7_1/data/base/BaseRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/lesson7_1/data/local/NoteDao.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/lesson7_1/data/local/NoteDatabase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/lesson7_1/data/mapper/NoteMappers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/lesson7_1/data/model/NoteEntity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/example/lesson7_1/data/repository/NoteRepositoryImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/lesson7_1/domain/model/Note.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/lesson7_1/domain/repository/NoteRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/lesson7_1/domain/usecases/CreateNoteUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/lesson7_1/domain/usecases/DeleteNoteUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/lesson7_1/domain/usecases/EditNoteUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/lesson7_1/domain/usecases/GetAllNotesUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/example/lesson7_1/domain/utils/Resource.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/NoteApp/App.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +42,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KotlinMultiplatform">
