@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lesson7_1"
+    namespace = "com.example.Note-App"
     compileSdk = AndroidConfig.compileSdk
 
     defaultConfig {
-        applicationId = "com.example.lesson7_1"
+        applicationId = "com.example.Note-App"
         minSdk = AndroidConfig.minSdk
         targetSdk = AndroidConfig.targetSdk
         versionCode = AndroidConfig.versionCode
