@@ -18,9 +18,9 @@
 
 **JDK** version ``` 11 ```
 
-**Gradle** version ``` 7.4 ```
+**Gradle** version ``` 8.0 ```
 
-**Gradle plugin** version ``` 7.3.0 ```
+**Gradle plugin** version ``` 8.0.0 ```
 
 Target **Android API** ``` 33 ```
 
