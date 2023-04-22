@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/AddNoteFragment"
-        android:name="com.example.NoteApp.presentation.ui.fragments.NoteFragment"
+        android:name="com.example.NoteApp.presentation.utils.fragments.NoteFragment"
         android:label="fragment_note"
         tools:layout="@layout/fragment_add_note" />
 </navigation>

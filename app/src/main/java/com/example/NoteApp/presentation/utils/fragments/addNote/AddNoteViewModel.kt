@@ -1,4 +1,4 @@
-package com.example.NoteApp.presentation.ui.fragments.addNote
+package com.example.NoteApp.presentation.utils.fragments.addNote
 
 import com.example.NoteApp.domain.model.Note
 import com.example.NoteApp.domain.usecase.CreateNoteUseCase
