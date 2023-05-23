@@ -1,4 +1,4 @@
-package com.example.NoteApp.presentation.utils.fragments.addNote
+package com.example.NoteApp.presentation.ui.fragments.addNote
 
 import android.annotation.SuppressLint
 import android.os.Build

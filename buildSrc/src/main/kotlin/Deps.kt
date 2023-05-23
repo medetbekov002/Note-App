@@ -1,5 +1,5 @@
 object Versions {
-    const val AGP = "8.0.0"
+    const val AGP = "7.3.0"
     const val kotlin = "1.8.0"
     const val coroutines = "1.6.4"
     const val appCompat = "1.6.1"

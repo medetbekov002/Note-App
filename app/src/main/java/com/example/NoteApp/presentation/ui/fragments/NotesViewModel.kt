@@ -1,4 +1,4 @@
-package com.example.NoteApp.presentation.utils.fragments
+package com.example.NoteApp.presentation.ui.fragments
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
