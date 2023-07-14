@@ -1,4 +1,4 @@
-## NoteApp
+## Gallery-API ## Tech task
 
 ---
 
