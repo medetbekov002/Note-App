@@ -1,4 +1,4 @@
-## Gallery-API ## Tech task
+## Gallery-API && Tech task
 
 ---
 
