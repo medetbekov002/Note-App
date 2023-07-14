@@ -54,7 +54,7 @@ Target **Android API** ``` 33 ```
 
 ---
 
-## Seventh month
-## I'm finishing (13.04.2023)
+## Start (13.07.2023)
+## Finishing (??.??.????)
 
 ---
